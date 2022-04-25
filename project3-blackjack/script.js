@@ -6,7 +6,7 @@
 //THEN If player stand/ or cards > 21, dealer hit or stand
 //If dealer < 17, must hit.
 //If dealer > 21, dealer lose
-//HELLOOOO
+//HELLOOOO2
 document.querySelector("#hit-button").disabled = true;
 document.querySelector("#stand-button").disabled = true;
 
