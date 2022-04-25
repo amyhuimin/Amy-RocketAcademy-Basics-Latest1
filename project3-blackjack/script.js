@@ -186,6 +186,7 @@ var main = function (input) {
     }
     playerPoints = addPoints(playerCardsArray);
     if (input === "stand") {
+      document.querySelector("#submit-button").disabled = false;
       while (addPoints(dealerCardsArray) < 17) {
         dealCard(dealerCardsArray);
         outputMessage = `Dealer drew a card.`;
